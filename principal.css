@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#central{
+    background: #353535;
+    background: radial-gradient(at left top, #353535, #030303);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 4px 5px 13px #000000;
+}
+
+#title{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 0px;
+    font-family: 'Moul', cursive;
+}
+
+#subtitle{
+    margin-top: 0px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Playfair', serif;
+}
