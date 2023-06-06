@@ -1,0 +1,45 @@
+#pagina2{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pagina2 > div{
+    width: 85%;
+    height: 30vh;
+    box-shadow: 10px 10px 30px rgb(196, 196, 196);
+    border-radius: 20px;
+    background-color: white(0, 0, 0, 0.854);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2{
+    height: 40%;
+}
+
+#reloj{
+    height: 30%;
+    padding: 10px;
+}
+
+#ubi{
+    height: 30%;
+    padding: 10px;
+}
+
+.textos2{
+    font-size: small;
+    margin-right: 10px;
+    margin-left: 12px;
+}
+.textos2>h2{
+    font-weight:900;
+    font-size: 20px;
+}
