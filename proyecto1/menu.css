@@ -7,11 +7,62 @@
     box-shadow: 2px 2px 12px rgba(32, 32, 32, 0.678);
     z-index: 2;
   }
-  .raya {
-      position: relative;
-      width: 35px;
-      height: 5px;
-      background-color: rgb(46, 46, 46);
-      margin: 5px 0;
-  }
-  
+
+.raya {
+    position: relative;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(46, 46, 46);
+    margin: 5px 0;
+}
+ 
+#menu-opciones{
+    position: absolute;
+    top: 15px;
+    left: -50vh;
+    width: 50vw;
+    height: auto;
+    background-color: white;
+    color: black;
+    font-size: small;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 3;
+    font-family: 'Playfair', serif;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu-opciones>ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#menu-opciones>ul>li{
+    width: 100%;
+    box-shadow: 0 1px 2px #ddd;
+    padding: 14px;
+}
+
+ul,li{
+    list-style: none;
+}
+
+#tipo-fotos{
+    padding-left: 20px;
+    list-style:upper-alpha;
+    box-shadow: 0 1px 2px #ddd;
+}
+
+#tipo-fotos>li{
+    list-style:inside;
+    padding: 10px;
+    font-weight: 300;
+}
